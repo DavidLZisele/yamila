@@ -1,0 +1,61 @@
+#principal 
+{
+    font-family: 'Overpass', sans-serif;
+    padding: 0;
+    font-size: 15px;
+}
+h1
+{
+    font-family: 'Orbitron', sans-serif;
+    color:black;
+    text-align: center;
+    font-size:2em;
+}
+
+a{
+    color:black;
+}
+a:hover
+{
+    color:black; 
+}
+#principal-header
+{
+    padding: 0;
+}
+.titulo
+{
+    padding:0;
+
+}
+@media (min-width:768px)
+{
+}
+@media (min-width:992px)
+{
+    
+    #principal-header
+    {
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+    }
+    #principal-header div
+    {
+        text-align: center;
+    }
+    .navbar-nav
+    {
+        justify-content: flex-end;
+    }
+    .dropdown-item
+    {
+        padding: .25rem 1.8em .25em 0.5em;
+        text-align: left;
+    }
+}
+@media (min-width:1200px)
+{
+  
+}
